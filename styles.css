@@ -1,0 +1,133 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Navigation Bar */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    padding: 32px 150px;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.right-side {
+    display: flex;
+    gap: 16px;
+}
+
+.right-side a {
+    color:rgb(226, 226, 226);
+    font-size: 18px;
+}
+
+/* Section One */
+
+.section-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 150px;
+    background-color: #1F2937;
+    height: 200px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.heading {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.desc {
+    font-size: 18px;
+    color: #F9FAF8;
+    flex-wrap: wrap;
+    /* width: 400px; */
+}
+
+#sign-up-one {
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 96px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(204, 4%, 47%);
+    color: white;
+    width: 400px;
+    height: 200px;
+    flex-shrink: 0;
+}
+
+/* Section Two */
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: start; */
+    /* height: 350px; */
+    padding: 32px 150px 150px;
+    border: 1px solid black;
+}
+
+.subtexts {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-set {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    border: 3px solid #3882F6;
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.subtext {
+    width: 150px;
+    text-align: center;
+    flex-wrap: wrap;
+}
